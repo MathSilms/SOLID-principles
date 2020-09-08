@@ -6,7 +6,9 @@
   "author": "Matheus Oliveira <62664418+MathSilms@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/nodemailer": "^6.4.0",
     "express": "^4.17.1",
+    "nodemailer": "^6.4.11",
     "uuidv4": "^6.2.3"
   },
   "devDependencies": {
