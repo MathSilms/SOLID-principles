@@ -1,9 +1,10 @@
 import { Router } from "express";
+import { createUserController } from "./userCases/CreateUser";
 
 const router = Router();
 
 router.post('/users', ( req, res ) =>{
-    return res.status(201).json({ message:'tudo certo'})
+    return createUserController.handle(req,res);
 });
 
 export { router }
