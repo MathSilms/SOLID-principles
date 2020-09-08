@@ -6,7 +6,8 @@
   "author": "Matheus Oliveira <62664418+MathSilms@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.3"
   },
   "devDependencies": {
     "@types/express": "^4.17.8",
