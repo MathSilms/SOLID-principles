@@ -76,7 +76,7 @@ Isso irá executar a aplicação e gerar rodar o servidor na porta 3333 que est�
 
  Após isso, sua instância seu servidor estará rodando em uma porta nova e evitando entrar em conflito com outros serviços já existentes no seu computador.
 
- agora é mão no código ;)
+ agora é mão no código :wink:
 
 qualquer duvida ou sugestão:
 
