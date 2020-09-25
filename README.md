@@ -37,14 +37,20 @@ yarn install
 ```
 
 essa ação irá instalar os seguintes módulos:
+#### Dependências 
+```sh
 
-    '"express": "^4.17.1",
-    "nodemailer": "^6.4.11",
-    "uuidv4": "^6.2.3"
-    "@types/nodemailer": "^6.4.0",
-    "@types/express": "^4.17.8",
-    "ts-node-dev": "^1.0.0-pre.62",
-    "typescript": "^4.0.2"'
+    express: ^4.17.1,
+    nodemailer: ^6.4.11,
+    uuidv4: ^6.2.3
+```
+#### Dependências de desenvolvimento
+```sh
+    @types/nodemailer: ^6.4.0,
+    @types/express: ^4.17.8,
+    ts-node-dev: ^1.0.0-pre.62,
+    typescript: ^4.0.2
+```
 
 ## Configuração para Desenvolvimento
 
@@ -53,15 +59,20 @@ Depois de instalado os módulos, execute o script criado para inicializar o proj
 ### NPM
 
 ```sh
-npm dev
+npm start
 ```
 ### yarn
 
 ```sh
-yarn dev
+yarn start
 ```
 
-Isso irá executar a aplicação e gerar, no seu terminal, um QR code para autenticação do whatsapp web. Com seu aparelho em mãos, leia o código.
+Isso irá executar a aplicação e gerar rodar o servidor na porta 3333 que está configurada. Caso haja conflito de portas, va para o arquivo server.js e altere o número da porta.
+```sh
+    app.listen(3333,()=>{
+        console.log('server rodando na porta 3333');
+    })
+```
 
  Após isso, sua instância será salva e toda vez que iniciar a aplicação não precisará ler o Qr code novamente.
 
