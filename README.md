@@ -69,22 +69,16 @@ yarn start
 
 Isso irá executar a aplicação e gerar rodar o servidor na porta 3333 que está configurada. Caso haja conflito de portas, va para o arquivo server.js e altere o número da porta.
 ```sh
-    app.listen(3333,()=>{
-        console.log('server rodando na porta 3333');
+    app.listen(NOVA-PORTA,()=>{
+        console.log('server rodando na porta NOVA-PORTA');
     })
 ```
 
- Após isso, sua instância será salva e toda vez que iniciar a aplicação não precisará ler o Qr code novamente.
+ Após isso, sua instância seu servidor estará rodando em uma porta nova e evitando entrar em conflito com outros serviços já existentes no seu computador.
 
-Depois de autenticado e tudo funcionando, você terá acesso a muitos dados sobre o usuário e a mensagem recebida pelo bot. Um exemplo:
-
-![](./objeto.png) 
-
-obs.: Deixei um console log comentado no index, caso queira vizualizar um exemplo parecido no seu terminal.
-
-com esses dados recebidos, existem infinitas possibilidades de coisas que podemos fazer.
+ agora é mão no código ;)
 
 qualquer duvida ou sugestão:
 
 
-Matheus de Oliveira Mendonça – [@MathSilms](https://www.linkedin.com/in/mathsilms/) – Mateheusoliver@gmail.com
+Matheus de Oliveira Mendonça – [Linkedin](https://www.linkedin.com/in/mathsilms/) – Mateheusoliver@gmail.com
