@@ -2,7 +2,7 @@
 
 > APIrest com typescript baseado nos princípios do SOLID e packege-by-feature 
            
-![](./solid.jpg=300x80)                                     
+<img src="solid.jpg" alt="solid" width="400"/>                                     
 
 
 *No SOLID*, cada letra do nome significa um de seus princípios. Assim, temos no total 5 para serem seguidos.
